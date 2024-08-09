@@ -1,4 +1,4 @@
-//Autor: Irvin Javier Cruz Gonzalez - 1rv1n@ciencias.unam.mx
+// punto 6
 const http = require('http')
 const server = http.createServer((peticion, respuesta) => {
     respuesta.writeHead(200, {'Content-Type': 'text/plain'})
