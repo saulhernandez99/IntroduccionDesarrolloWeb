@@ -1,4 +1,4 @@
-// punto 6
+// Irvin Javier Cruz Gonzalez - 1rv1n@ciencias.unam.mx
 const http = require('http')
 const server = http.createServer((peticion, respuesta) => {
     respuesta.writeHead(200, {'Content-Type': 'text/plain'})
