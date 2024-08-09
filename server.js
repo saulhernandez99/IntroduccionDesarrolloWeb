@@ -1,5 +1,4 @@
-//Saúl Alejandro Hernández Rojas
-//saulhernandez@ciencias.unam.mx
+//Author: Saúl Alejandro Hernández Rojas - saulhernandez@ciencias.unam.mx
 const http = require('http')
 const server = http.createServer((peticion, respuesta) => {
     respuesta.writeHead(200, {'Content-Type': 'text/plain'})
